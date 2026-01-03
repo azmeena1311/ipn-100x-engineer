@@ -103,7 +103,7 @@ export default function Home() {
                 Enter your location to find nearby restaurants
               </p>
               <p className="text-gray-400 text-sm mt-2">
-                Try searching for &quot;San Francisco&quot; or &quot;94102&quot;
+                Try searching for &ldquo;San Francisco&rdquo; or &ldquo;94102&rdquo;
               </p>
             </div>
           )}

@@ -40,8 +40,7 @@ export default function RestaurantMap({ restaurants, center, zoom = 13 }: Restau
     // Add markers for restaurants
     if (mapInstanceRef.current && restaurants.length > 0) {
       // Marker creation code would go here
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      restaurants.forEach((restaurant) => {
+      restaurants.forEach(() => {
         // Marker creation code would go here
       });
     }

@@ -3,7 +3,7 @@
 import { useState, FormEvent } from 'react';
 
 interface SearchFormProps {
-  onSearch: (_location: string) => void;
+  onSearch: (location: string) => void;
   isLoading: boolean;
 }
 
@@ -48,7 +48,7 @@ export default function SearchForm({ onSearch, isLoading }: SearchFormProps) {
         </div>
       </div>
       <p className="mt-3 text-sm text-gray-500">
-        💡 Tip: Try searching for &quot;San Francisco&quot;, &quot;Downtown&quot;, or a zip code like &quot;94102&quot;
+        💡 Tip: Try searching for &ldquo;San Francisco&rdquo;, &ldquo;Downtown&rdquo;, or a zip code like &ldquo;94102&rdquo;
       </p>
     </form>
   );
